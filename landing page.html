@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CLMedia - Digital Marketing Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.2rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* Hero */
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #e63596, #22e0e0);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      max-width: 750px;
+      margin: 0 0 0.5rem 0;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 550px;
+      margin: 0 0 1.5rem 0;
+    }
+    .cta-btn {
+      background: #000000;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    /* Sections */
+    section {
+      background: white;
+      padding: 3rem;
+   
+     
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    p.section-intro {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Features */
+    .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .feature {
+      flex: 1 1 30%;
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      padding-bottom: 1.5rem;
+    }
+    .feature img {
+      max-width: 70px;
+      margin-bottom: 0.8rem;
+    }
+
+    /* Map Section */
+    .map-section {
+      background: #fdeef1;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .map-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .map-stats h3 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    .map-stats p {
+      margin: 0 0 1rem 0;
+    }
+    .map-section img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background: #f1f1f1;
+      padding: 3rem 2rem;
+    }
+    .testimonial-cards {
+      margin: 2rem;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .testimonial {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      flex: 1 1 calc(33% - 1rem);
+    }
+    .testimonial p {
+      font-style: italic;
+      margin: 0 0 0.5rem 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .social-links a {
+      margin: 0 0.7rem;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo"><strong>CLMedia</strong></div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#benefits">Benefits</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h1>Struggling to get noticed online?</h1>
+    <p>CLMedia helps you dominate the digital space with powerful marketing strategies.</p>
+    <button class="cta-btn" id="callBtn">Make a Call</button>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits">
+    <div class="features">
+      <div class="feature">
+        <img src="https://img.icons8.com/color/96/000000/online-store.png" alt="">
+        <h3>Boost Your Online Presence</h3>
+        <p>Reach more customers with data-driven strategies that increase visibility.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/color/96/000000/commercial.png" alt="">
+        <h3>Convert Clicks to Clients</h3>
+        <p>We craft campaigns that turn visitors into loyal customers.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/color/96/000000/bar-chart.png" alt="">
+        <h3>Data-Driven Results</h3>
+        <p>Track, analyze, and optimize to maximize your ROI.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/?size=100&id=SYn0usNcDwL3&format=png&color=000000" alt="startup">
+        <h3>Startups</h3>
+        <p>Get noticed quickly and make your mark in the industry.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/color/96/000000/office.png" alt="">
+        <h3>Small Businesses</h3>
+        <p>Affordable marketing plans that scale with your growth.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/?size=100&id=114257&format=png&color=000000" alt="">
+        <h3>Enterprises</h3>
+        <p>Complex campaigns and large-scale digital transformations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <h2>Clients Around the Globe</h2>
+    <div class="map-content">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" alt="Map">
+      <div class="map-stats">
+        <h3>200+</h3>
+        <p>Clients</p>
+        <h3>50+</h3>
+        <p>Countries</p>
+        <h3>∞</h3>
+        <p>Marketing Possibilities</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"CLMedia transformed our online presence!"</p>
+        <strong>- Alex R.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Amazing results in just 3 months. Highly recommend."</p>
+        <strong>- Jamie L.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Professional, creative, and result-driven team."</p>
+        <strong>- Morgan K.</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section style="text-align:center; padding:2rem;">
+    <h2>Ready to Boost Your Business?</h2>
+    <p>Contact us today to get started!</p>
+    <button class="cta-btn" id="callBtn">Make a Call</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow Us</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com">Instagram</a>
+      <a href="https://www.Facebook.com">Facebook</a>
+      <a href="https://www.youtube.com">YouTube</a>
+      <a href="https://www.x.com">X</a>
+    </div>
+  </footer>
+
+</body>
+</html>
